@@ -9,7 +9,31 @@ body {
   margin: 0;
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.container {
+  background-size: cover;
+  display: flex;
+}
+
+.picture-1 {
+  background-image: url("images/healthy-food.jpg");
+}
+
+.picture-2 {
+  background-image: url("images/excercise.jpg");
+}
+
+.picture-3 {
+  background-image: url("images/sleep.jpg");
+}
+
+.picture-4 {
+  background-image: url("images/smoke.jpg");
+}
+
+.picture-5 {
+  background-image: url("images/stress.jpg");
 }
