@@ -21,7 +21,7 @@ h3 {
   left: 20px;
   background-color: #f0d9da;
   opacity: 0;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .active h3 {
@@ -35,7 +35,7 @@ h3 {
 }
 
 .panel {
-  margin: 0;
+  margin: 10px;
   background-size: cover;
   background-position: center;
   background-repeat: none;
@@ -43,7 +43,7 @@ h3 {
   flex: 0.1;
   color: #240747;
   position: relative;
-  transition: all 200ms ease-in-out;
+  transition: flex 0.7s ease-in-out;
   cursor: pointer;
 }
 
