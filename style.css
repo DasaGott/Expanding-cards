@@ -11,11 +11,57 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f9ecec;
+}
+
+h3 {
+  margin: 0;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #f0d9da;
+  opacity: 0;
+  font-size: 24px;
+}
+
+.active h3 {
+  opacity: 1;
 }
 
 .container {
-  background-size: cover;
   display: flex;
+  width: 90vw;
+  justify-content: center;
+}
+
+.panel {
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  height: 80vh;
+  flex: 0.1;
+  color: #240747;
+  position: relative;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.panel.active {
+  clip-path: none;
+  flex: 0.5;
+  border-radius: 50px;
+}
+
+.picture-1,
+.picture-3,
+.picture-5 {
+  clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+}
+
+.picture-2,
+.picture-4 {
+  clip-path: polygon(100% 0, 0 0, 50% 100%);
 }
 
 .picture-1 {
